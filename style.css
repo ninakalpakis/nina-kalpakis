@@ -469,6 +469,7 @@ a:hover::after {
 
 .experience-projects_item-content p {
   font-size: 16px;
+  font-weight: 400;
 }
 
 .experience-projects_item-content span {
