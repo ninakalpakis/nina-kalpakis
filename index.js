@@ -18,9 +18,9 @@ document
   .querySelector(".sidecar-link-about")
   .addEventListener("click", function () {
     var el = document.getElementById("nav-bar");
-    el.classList.toggle("nav-bar-active");
+    el.classList.removeClass("nav-bar-active");
     var menu = document.getElementById("menu");
-    menu.classList.toggle("menu-active");
+    menu.classList.removeClass("menu-active");
   });
 
 document
