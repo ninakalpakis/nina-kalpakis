@@ -32,8 +32,8 @@ document
     menu.classList.toggle("menu-active");
   });
 
-document
-  .querySelector("sidecar-link-skills")
+  document
+  .querySelector(".sidecar-link-skills")
   .addEventListener("click", function () {
     var el = document.getElementById("nav-bar");
     el.classList.toggle("nav-bar-active");
@@ -41,8 +41,8 @@ document
     menu.classList.toggle("menu-active");
   });
 
-document
-  .querySelector("sidecar-link-contact")
+  document
+  .querySelector(".sidecar-link-contact")
   .addEventListener("click", function () {
     var el = document.getElementById("nav-bar");
     el.classList.toggle("nav-bar-active");
