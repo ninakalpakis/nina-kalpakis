@@ -569,7 +569,7 @@ a:hover::after {
 }
 
 .tab-active .tab-description {
-  height: 70px;
+  height: 75px;
 }
 
 .tab-description a {
