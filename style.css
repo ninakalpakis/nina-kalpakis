@@ -205,8 +205,8 @@ body {
   margin: 0px;
   background: linear-gradient(135deg, #b6a0fe, #8cdae9);
   background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-	height: 100vh;
+  animation: gradient 10s ease infinite;
+  height: 100vh;
 }
 
 #hero {
@@ -805,15 +805,14 @@ a:hover::after {
   }
 }
 
-
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

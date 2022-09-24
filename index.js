@@ -32,7 +32,7 @@ document
     menu.classList.toggle("menu-active");
   });
 
-  document
+document
   .querySelector(".sidecar-link-skills")
   .addEventListener("click", function () {
     var el = document.getElementById("nav-bar");
@@ -41,7 +41,7 @@ document
     menu.classList.toggle("menu-active");
   });
 
-  document
+document
   .querySelector(".sidecar-link-contact")
   .addEventListener("click", function () {
     var el = document.getElementById("nav-bar");
@@ -111,3 +111,4 @@ $(document).ready(function () {
     } // End if
   });
 });
+
