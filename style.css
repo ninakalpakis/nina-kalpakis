@@ -7,6 +7,7 @@ header {
   position: fixed;
   z-index: 9999;
   width: 100%;
+  top: 0px;
 }
 
 #menu {
@@ -206,7 +207,7 @@ body {
   background: linear-gradient(135deg, #b6a0fe, #8cdae9);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  height: 100vh;
+  height: 100%;
 }
 
 #hero {
@@ -215,6 +216,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .hero-title {
