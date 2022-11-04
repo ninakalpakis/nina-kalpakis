@@ -805,7 +805,7 @@ a:hover::after {
   }
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -815,4 +815,4 @@ a:hover::after {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
